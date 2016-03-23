@@ -33,6 +33,7 @@
 *.patch
 *.gcno
 *.txt
+core
 
 #
 # Top-level generic files

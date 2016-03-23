@@ -8,6 +8,7 @@ int vuln() {
     char buf[80];
     int r;
     r = read(0, buf, 400);
+    printf("0x%x",&buf);
     printf("\nRead %d bytes. buf is %s\n", r, buf);
     puts("No shell for you :(");
     return 0;
