@@ -11,7 +11,7 @@
 - vullocal
     + the shellcode now can run in stack 
         - -fno-stack-protector -z execstack
-        - echo 0 > /proc/sys/kernel/randomize_vai_space
+        - echo 0 > /proc/sys/kernel/randomize_va_space
     + the rop shellcode is testing
         - -fno-stack-protector
-        - echo 0 > /proc/sys/kernel/randomize_vai_space
+        - echo 0 > /proc/sys/kernel/randomize_va_space
