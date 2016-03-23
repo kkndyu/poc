@@ -14,6 +14,6 @@
         - echo 0 > /proc/sys/kernel/randomize_va_space
     + the rop shellcode is ok now
         - -fno-stack-protector
-        - echo 0 > /proc/sys/kernel/randomize_va_space
-	- ropper --file vullocal --search "% ?di"
+        - echo 0 > /proc/sys/kernel/randomize_va_space  
+        - ropper --file vullocal --search "% ?di"
         - testing via (cat in.txt ; cat) |  ../bin/vullocal
